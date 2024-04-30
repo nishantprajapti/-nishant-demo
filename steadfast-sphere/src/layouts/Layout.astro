@@ -1,0 +1,30 @@
+---
+import Navbar from '../components/Navbar.astro'
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nishant Demo</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css">
+    <!-- Add any additional meta tags, stylesheets, or scripts here -->
+</head>
+<body>
+    <!-- Include the Navbar component -->
+    <Navbar />
+
+    <!-- Main content area -->
+    <main>
+        <!-- Page-specific content will be injected here -->
+        <slot />
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Website. All rights reserved.</p>
+    </footer>
+
+    <!-- Add any additional scripts or libraries here -->
+</body>
+</html>
